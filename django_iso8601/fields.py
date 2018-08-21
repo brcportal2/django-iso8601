@@ -16,7 +16,7 @@ __all__ = 'ISO8601DateField', 'ISO8601DatetimeField', 'ISO8601TimeField'
 class ISO8601DateField(forms.Field):
     widget = ISO8601DateInput
     default_error_messages = {
-        'invalid': _(u'Enter a valid ISO 8601 date.'),
+        'invalid': _('Enter a valid ISO 8601 date.'),
     }
 
     def __init__(self, yeardigits=4, **kwargs):
@@ -41,7 +41,7 @@ class ISO8601DateField(forms.Field):
 class ISO8601DatetimeField(forms.Field):
     widget = ISO8601DatetimeInput
     default_error_messages = {
-        'invalid': _(u'Enter a valid ISO 8601 datetime.'),
+        'invalid': _('Enter a valid ISO 8601 datetime.'),
     }
 
     def to_python(self, value):
@@ -62,7 +62,7 @@ class ISO8601DatetimeField(forms.Field):
 class ISO8601TimeField(forms.Field):
     widget = ISO8601TimeInput
     default_error_messages = {
-        'invalid': _(u'Enter a valid ISO 8601 time.'),
+        'invalid': _('Enter a valid ISO 8601 time.'),
     }
 
     def to_python(self, value):

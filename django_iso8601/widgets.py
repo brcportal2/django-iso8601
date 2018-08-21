@@ -48,6 +48,6 @@ class ISO8601TimeInput(Input):
             try:
                 return isodate.time_isoformat(value, self.format)
             except:
-                print repr(value), repr(self.format)
+                print(repr(value), repr(self.format))
         return value
 

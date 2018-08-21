@@ -6,11 +6,11 @@ from setuptools import setup, find_packages
 setup(
     name = "django-iso8601",
     version = "0.1alpha2",
-    description = u"Django tools for working with ISO 8601",
-    url = u"http://github.com/k0001/django-iso8601",
-    author = u"Renzo Carbonara",
-    author_email = u"gnuk0001@gmail.com",
-    license = u"BSD",
+    description = "Django tools for working with ISO 8601",
+    url = "https://github.com/brcportal2/django-iso8601",
+    author = "Renzo Carbonara",
+    author_email = "gnuk0001@gmail.com",
+    license = "BSD",
     keywords = "django iso8601 dates times",
 
     zip_safe = True,
